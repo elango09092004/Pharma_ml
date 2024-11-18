@@ -1,0 +1,72 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f2f2f2; /* Light grey background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff; /* White background */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Softer shadow */
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50; /* Dark grey color for the heading */
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label {
+    font-size: 16px;
+    color: #34495e; /* Slightly lighter grey */
+    font-weight: bold;
+}
+
+input {
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #bdc3c7; /* Light border color */
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #1abc9c; /* Green focus border */
+    outline: none;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #1abc9c; /* Green button */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #16a085; /* Darker green on hover */
+}
+
+#result {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ecf0f1; /* Light grey background for results */
+    border-radius: 6px;
+    color: #34495e; /* Darker grey for text */
+    font-size: 16px;
+    border: 1px solid #bdc3c7; /* Matching border color */
+}
